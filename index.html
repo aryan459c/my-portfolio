@@ -1,141 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>My-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Zen+Dots&display=swap"
+      rel="stylesheet" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <script src="main.js"></script>
-  <title>Portfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Zen+Dots&display=swap"
-    rel="stylesheet" />
-</head>
-
-<body>
-  <!-- Header -->
-  <header class="header">
-    <a href="" class="logo">Portfolio</a>
-    <i class='bx bx-menu' id="menu-icon"></i>
-    <nav class="navbar">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#skills">SKills</a>
-      <a href="#portfolio">Portfolio</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
-  <!-- Home Section -->
-  <section class="home" id="home">
-    <div class="home-content">
-      <h3>Hello, It's Me</h3>
-      <h1>Sunil Kumar Maharana</h1>
-      <h3>And I'm a <span>Frontend Developer</span> And <span>Java Developer</span></h3>
-      <p></p>
-      <div class="social-media">
-        <a href="#"><i class='bx bxl-facebook'></i></a>
-        <a href="#"><i class='bx bxl-twitter'></i></a>
-        <a href="#"><i class='bx bxl-instagram' ></i></a>
-        <a href="#"><i class='bx bxl-linkedin' ></i></a>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <a href="" class="logo">Portfolio</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills" class="btnskills">SKills</a>
+        <a href="#projects">projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <!-- Home Section -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Sunil Kumar Maharana</h1>
+        <h3>
+          And I'm a <span>Frontend Developer</span> And
+          <span>Java Developer</span>
+        </h3>
+        <p></p>
+        <div class="social-media">
+          <a
+            href="https://www.facebook.com/aryan459c"
+            title="Facebook"
+            target="_blank"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/aryan459c/"
+            title="Instagram"
+            target="_blank"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/aryan459c/"
+            title="Linkedin"
+            target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/aryan459c" title="Github" target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
+        <a href="./Pages/readcv.html" class="btn" title="Download Resume"
+          >Download CV</a
+        >
       </div>
-      <a href="./Pages/readcv.html" class="btn">Download CV</a>
-    </div>
-    <div class="home-img">
-      <img src="./assert/home.png" alt="">
-    </div>
-  </section>
-<!-- About Section -->
-<section class="about" id="about">
-  <div class="about-img">
-    <img src="./assert/About.png" alt="">
-  </div>
-  <div class="about-content">
-    <h2 class="heading">
-      About <span>Me</span>
-    </h2>
-    <h3>Frontend Developer and Java Developer</h3>
-    <p></p>
-    <a href="#" class="btn">Read more..</a>
-  </div>
-</section>
-<!-- Skill Section -->
-<section class="skills" id="skills">
-  <h2>Skills</h2>
-  <div class="skills-content">
-    <div class="card">
-      <img src="./assert/html_css_js.png" alt="" class="card__img">
-       <div class="card__footer">
-          <h3>HTML | CSS |JavaScript</h3>
-           <p></p>
-       </div>
-    </div>
-    <div class="card">
-      <img src="./assert/html_css_js.png" alt="" class="card__img">
-       <div class="card__footer">
-          <h3>SQL in OracleDatabase </h3>
-           <p></p>
-       </div>
-    </div>
-    <div class="card">
-      <img src="./assert/html_css_js.png" alt="" class="card__img">
-       <div class="card__footer">
-          <h3>JAVA Developer</h3>
-           <p>Core Java || JDBC || Servlet || Filter || JSP</p>
-       </div>
-    </div>
-    <div class="card">
-      <img src="./assert/html_css_js.png" alt="" class="card__img">
-       <div class="card__footer">
-          <h3>BOOTSTRAP</h3>
-           <p></p>
-       </div>
-    </div>
-    <div class="card">
-      <img src="./assert/html_css_js.png" alt="" class="card__img">
-       <div class="card__footer">
-          <h3>ADOBE PHOTOSHOP
-          </h3>
-           <p>
-          </p>
-       </div>
-    </div>
-    <div class="card">
-      <img src="./assert/html_css_js.png" alt="" class="card__img">
-       <div class="card__footer">
-          <h3>AutoCAD 2d</h3>
-           <p></p>
-       </div>
-    </div>
-    
-  </div>
-  
-</section>
+      <div class="home-img">
+        <img src="./assert/home.png" alt="" />
+      </div>
+    </section>
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="./assert/About.png" alt="" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Frontend Developer and Java Developer</h3>
+        <p></p>
+        <a href="#" class="btn">Read more..</a>
+      </div>
+    </section>
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+      <h2>Skills</h2>
+      <div class="skills-container">
+        <div class="skill-box">
+          <div class="title">HTML</div>
+          <div class="skill-bar">
+            <div class="skill-per">
+              <div class="tooltip">85%</div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="title">CSS</div>
+          <div class="skill-bar">
+            <div class="skill-per css">
+              <div class="tooltip">70%</div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="title">JS</div>
+          <div class="skill-bar">
+            <div class="skill-per js">
+              <div class="tooltip">65%</div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="title">BOOTSTRAP</div>
+          <div class="skill-bar">
+            <div class="skill-per bs">
+              <div class="tooltip">60%</div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="title">CORE JAVA</div>
+          <div class="skill-bar">
+            <div class="skill-per cj">
+              <div class="tooltip">70%</div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="title">ADVANCED JAVA</div>
+          <div class="skill-bar">
+            <div class="skill-per aj">
+              <div class="tooltip">65%</div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="title">SQL PROGRAMER (ORACLE)</div>
+          <div class="skill-bar">
+            <div class="skill-per sp">
+              <div class="tooltip">65%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="title">ADOBE PHOTOSHOP CC</div>
+        <div class="skill-bar">
+          <div class="skill-per apc">
+            <div class="tooltip">60%</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  PROJECT SECTION  -->
+    <section class="projects" id="projects">
+      <h2>PROJECTS</h2>
+      <br />
+      <div class="project-container">
+        <div class="card-container">
+          <img src="./Img-page/LoginandRegistration.jpg" alt="" />
+          <a href="http://www.getaryan.epizy.com"
+            ><span class="card-span">Click Me!</span></a
+          >
+          <div class="card-list">
+            <h3>Login and Registeration page</h3>
+            <p>This Is a static page. Using HTML, CSS, Javascript.</p>
+          </div>
+        </div>
+        <div class="card-container">
+          <img src="./Img-page/My-Portfolio.jpg" alt="" />
+          <a href="http://www.getaryan.epizy.com"
+            ><span class="card-span">Click Me!</span></a
+          >
+          <div class="card-list">
+            <h3>Portfolio page</h3>
+            <p>This is a HTML, CSS, Javascript. page also fully responsiv.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<!-- CONTACT SECTION -->
-<section class="contact" id="contact">
-  <h2 class="heading">Contact <span>Me!</span></h2>
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
 
-  <form action="#" method="post">
-    <div class="input-box">
-      <input type="text" name="fullname" id="" placeholder="Full Name">
-      <input type="email" name="email" id="" placeholder="Email Address">
-    </div>
-    <div class="input-box">
-      <input type="tel" name="mobilno" id="" placeholder="Mobile Number">
-      <input type="text" name="emailsub" id="" placeholder="Email Subject">
-    </div>
-    <textarea name="cmessage" id="" cols="30" rows="10"></textarea>
-    <input type="submit" value="Send Me!" class="btn">
-  </form>
-</section>
-<footer class="footer">
-  <div class="footer-text">
-    <p>Copyright &copy; 2023 by Sunil Kumar Maharana || All Rights Reserved.</p>
-  </div>
-</footer>
-</body>
-
+      <form action="./contact.php" method="get">
+        <div class="input-box">
+          <input type="text" name="fullName" id="" placeholder="Full Name" />
+          <input type="email" name="email" id="" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="tel" name="mobileno" id="" placeholder="Mobile Number" />
+          <input
+            type="text"
+            name="emailsub"
+            id=""
+            placeholder="Email Subject" />
+        </div>
+        <textarea
+          name="cmessage"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Message..."></textarea>
+        <input type="submit" value="Send Me!" class="btn" />
+      </form>
+    </section>
+    <footer class="footer">
+      <div class="footer-text">
+        <p>
+          Copyright &copy; 2023 by Sunil Kumar Maharana || All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
 </html>
