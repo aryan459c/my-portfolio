@@ -17,12 +17,12 @@ font-family: 'Zen Dots', sans-serif; */
   --text-color: #fff;
   --main-color: #0ef;
   /* PERCENTAGE */
-  --html: 81%;
+  --html: 75%;
   --css: 70%;
   --js: 30%;
-  --bs: 60%;
-  --cj: 60%;
-  --aj: 65%;
+  --bs: 55%;
+  --cj: 65%;
+  --aj: 70%;
   --sp: 45%;
   --apc: 60%;
   /* ProgressBar */
